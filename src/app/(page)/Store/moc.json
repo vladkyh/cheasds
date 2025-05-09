@@ -1,0 +1,83 @@
+[
+  {
+  "id": 1,
+  "price": 12,
+  "title": "AECHMEA BLUE RAIN",
+  "size": "12,00",
+  "Watering": "Once a week",
+  "Location": "Suitable for light places",
+  "Type": "Flowering plants"
+},
+  {
+    "id": 2,
+    "price": "20,00-35,00",
+    "title": "AGLAONEMA KEY LIME",
+    "size": "20-30",
+    "Watering": "Once a week",
+    "Location": "Suitable for dark places, suitable for moderate places",
+    "Type": "Vertical plants"
+  },
+  {
+    "id": 3,
+    "price": "20,00",
+    "title": "Phalaenopsis Multi Soft Cloud",
+    "size": "50-100",
+    "Watering": "Once a week",
+    "Location": "Suitable for light places",
+    "Type": "Flowering plants"
+  },
+  {
+    "id": 4,
+    "price": "20,00-30,00",
+    "title": "AESCHYNATHUS TWISTER",
+    "size": "20-50",
+    "Watering": "Once a week",
+    "Location": "Suitable for light places",
+    "Type": "Hanging plants"
+  },
+  {
+    "id": 5,
+    "price": "15,00",
+    "title": "ASPIDISTRA",
+    "size": "50-100",
+    "Watering": "Once a week",
+    "Location": "Suitable for moderate places",
+    "Type": "Vertical plants"
+  },
+  {
+    "id": 6,
+    "price": "250-350",
+    "title": "STRELITZIA AUGUSTA",
+    "size": "160+",
+    "Watering": "Twice a week",
+    "Location": "Suitable for light places",
+    "Type": "Vertical plants"
+  },
+  {
+    "id": 7,
+    "price": "20,00-30,00",
+    "title": "flower name",
+    "size": "20-30",
+    "Watering": "Twice a month",
+    "Location": "Suitable for dark places, suitable for moderate places",
+    "Type": "Vertical plants"
+  },
+  {
+    "id": 8,
+    "price": "38,00",
+    "title": "ASPLENIUM 50 CM",
+    "size": "50",
+    "Watering": "Twice a week",
+    "Location": "Suitable for dark places",
+    "Type": "Vertical plants"
+  },
+  {
+    "id": 9,
+    "price": "18,00",
+    "title": "flower name",
+    "size": "20-30",
+    "Watering": "Once a week",
+    "Location": "Suitable for light places",
+    "Type": "Flowering plants"
+  }
+]

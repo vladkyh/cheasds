@@ -22,7 +22,11 @@ export default function Home() {
                 </div>
                 <div className={styles.df}>
                     <button className={styles.bynow}>
-                        Buy now
+                        <Link className={styles.link_nonee} href="/Store">
+                            Buy now
+
+
+                        </Link>
                     </button>
                     <button className={styles.aboutusbutton} >
                         <Link className={styles.link_none} href="/AboutUs">
@@ -44,8 +48,14 @@ export default function Home() {
             </div>
             <div className={styles.about_us_textblock}>
                 <h1 className={styles.about_h1}>About us</h1>
-                <h4 className={styles.about_h4}>We are a team of professionals consisting of experienced and knowledgeable designers, technicians and plant care specialists. Over the past years, we have implemented a number of projects that we and our clients are proud of.
-                    <br/> <br/> Conte started out as a greenery company, supplying indoor plants to Oakland's first shopping malls and foreign company offices in the state California. As the industry gradually developed, and thanks to the interest and positive feedback from our clients, the scope of our work increased and changed.</h4>
+                <h4 className={styles.about_h4}>
+                    We are a team of professionals consisting of experienced and knowledgeable designers, technicians
+                    and plant care specialists. Over the past years, we have implemented a number of projects that we
+                    and our clients are proud of.
+                    <br/><br/>
+                    Conte started out as a greenery company, supplying indoor plants to Oakland&apos;s first shopping
+                    malls and foreign company offices in the state California.
+                </h4>
                 <button className={styles.about_button}>
                     Read more <p className={styles.p}>{'->'}</p>
                 </button>
@@ -54,7 +64,7 @@ export default function Home() {
         <div className={styles.number}>
             <div className={styles.list_div}>
                 <ul className={styles.list}>
-                    {lichel.map(({num, text}, index)=>(
+                    {lichel.map(({num, text}, index) => (
                         <li className={styles.list_li} key={index}>
                             <h1 className={styles.number_h1}>
                                 {num}

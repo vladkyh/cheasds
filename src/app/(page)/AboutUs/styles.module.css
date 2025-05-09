@@ -1,7 +1,124 @@
+.img_container {
+    position: relative;
+}
+
+.img, .img1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.img{
+    width: 91% !important;
+}
+.text {
+    font-size: 5rem;
+    position: absolute;
+    left: -280px;
+    top: 10%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+
+
+    /*font-family: Poppins;*/
+    /*font-size: 144.44px;*/
+    /*font-weight: 500;*/
+    /*line-height: 217px;*/
+    /*letter-spacing: 0%;*/
+    /*text-align: left;*/
+}
+
+.text::before {
+    font-family: Poppins;
+    font-size: 120.44px;
+    font-weight: 500;
+    line-height: 217px;
+
+
+    content: 'About us';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    clip-path: polygon(0 0, 52% 0, 52% 100%, 0 100%); /* Белая часть до буквы U */
+}
+
+.text::after {
+    font-family: Poppins;
+    font-size: 120.44px;
+    font-weight: 500;
+    line-height: 217px;
+
+
+    content: 'About us';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #36472b;
+    clip-path: polygon(52% 0, 100% 0, 100% 100%, 52% 100%); /* Черная часть начиная с U */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.textContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.text {
+    font-size: 5rem; /* Настройте по своему вкусу */
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.whitePart {
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+
+.blackPart {
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container{
     width: 100%;
     position: relative;
     background: #36472b;
+    padding-top: 150px;
+
 }
 .about{
 display: flex;

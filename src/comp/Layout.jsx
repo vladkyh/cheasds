@@ -1,3 +1,4 @@
+'use client'
 import styles from './styles.module.css'
 import Image from "next/image";
 import logo from '@/../public/logo.png';
@@ -6,8 +7,12 @@ import inst from '@/../public/inst.svg'
 import yt from '@/../public/yt (1).svg'
 import fb from '@/../public/fb.svg'
 
-const Layout = ({child}) => {
+import { usePathname } from 'next/navigation'
 
+const Layout = ({child}) => {
+    const pathname = usePathname();
+    console.log(pathname);
+    const about = pathname === '/AboutUs'
   return (
     <>
 <div className={styles.header}>
@@ -19,9 +24,9 @@ const Layout = ({child}) => {
       <input className={styles.input_header}/>
     </div>
     <div className={styles.BURGERRR}>
-      <Image width={40} height={35}  src={bask} alt={'sda'}/>
+      <Image className={about && styles.white} width={40} height={35}  src={bask} alt={'sda'}/>
     </div>
-    <div>
+    <div className={about && styles.white}>
       <input   type="checkbox" id="burger_checkbox" className={styles.burger_checkbox}/>
       <label className={styles.burger} htmlFor="burger_checkbox"></label>
     </div>

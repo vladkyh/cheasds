@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
     font-family: 'Poppins';
     font-display: auto;
@@ -13,4 +15,66 @@ body{
     padding-left: 0;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
+}
+.boby{
+    margin-top: 0;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(54, 71, 43);
+    background-color: #e8e8e8;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.checkbox-input:checked {
+    background-color: rgb(54, 71, 43);
+}
+
+.checkbox-input:checked::after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/*.checkbox-input:focus {*/
+/*    outline: 2px solid rgba(54, 71, 43, 0.3);*/
+/*    outline-offset: 2px;*/
+/*}*/
+
+.checkbox-label {
+    cursor: pointer;
+
+    color: rgb(54, 71, 43);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.checkbox:hover .checkbox-input:not(:checked) {
+    background-color: #d8d8d8;
 }

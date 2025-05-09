@@ -2,7 +2,7 @@ import styles from './styles.module.css'
  import pic1 from '@/../public/pic1.png'
 import pic2 from '@/../public/pic2.png'
 import Image from "next/image";
-
+import cn from 'classname'
 
 const AboutUs = ({}) => {
 
@@ -14,17 +14,20 @@ const AboutUs = ({}) => {
                       <Image
                       src={pic1}
                       alt={'das'}
-                      className={styles.img}
+                      className={cn(styles.img)}
                       />
                   </div>
-                  <div>
+                  <div className={styles.img_container}>
+                      <div className={styles.text}>
+
+                      </div>
                       <Image
                       src={pic2}
                       alt={'das'}
-                      className={styles.img}
+                      className={styles.img1}
                       />
                   </div>
-                  
+
 
               </div>
               <div>

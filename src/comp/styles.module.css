@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
+    position: relative;
 }
 .logo{
     position: absolute;
@@ -26,6 +28,9 @@
     position: relative;
     background-color: #e8e8e8;
     z-index: 1;
+}
+.white{
+    filter: brightness(0) invert(1); /* Белый цвет */
 }
 .inputtt{
     position: relative;
@@ -126,6 +131,11 @@
     text-decoration: none;
     color: #36472b;
 }
+.link_nonee{
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
 .bynow, .aboutusbutton{
     position: relative;
     width: 172px;
