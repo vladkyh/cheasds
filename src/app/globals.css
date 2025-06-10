@@ -78,3 +78,24 @@ body{
 .checkbox:hover .checkbox-input:not(:checked) {
     background-color: #d8d8d8;
 }
+
+.asdasd{
+    border: 3px solid rgb(54, 71, 43);
+    border-radius: 10px;
+
+    background: #d6d7d4;
+}
+.fdsafasddfas{
+    background: #d6d7d4;
+    color: rgb(54, 71, 43);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fasfasf{
+    /*height: 110%;*/
+    /*border-left: 3px solid rgb(54, 71, 43);*/
+}

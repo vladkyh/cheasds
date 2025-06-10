@@ -11,7 +11,7 @@
 
 }
 .sort{
-    max-width: 380px;
+    min-width: 330px;
     position: relative;
 }
 .h1_store{
@@ -41,6 +41,7 @@
     letter-spacing: 0%;
     text-align: left;
     position: relative;
+    margin-top: 10px;
 
 
 }
@@ -86,11 +87,12 @@
 .productsContainer {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
 
     gap: 20px;
     padding: 20px;
-    margin-left: 120px;
+    margin-left:30px;
 
     position: relative;
 }
@@ -196,7 +198,7 @@
 .df{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: start;
 }
 
